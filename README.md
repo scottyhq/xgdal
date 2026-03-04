@@ -34,8 +34,6 @@ Indexes:
   └ y
 ```
 
-NOTE: the VRT just points to the
-
 
 ## Install
 
@@ -67,7 +65,7 @@ with xgdal.Env(GS_NO_SIGN_REQUEST=True,
 }
 ```
 
-See more in example.ipynb
+See more in [example.ipynb](./example.ipynb)
 
 
 ## Multidim API
@@ -83,7 +81,7 @@ https://gdal.org/en/stable/drivers/raster/vrt_multidimensional.html
 
 1. This library also includes a method to go from an xarray Dataset to a GDAL MultiDimensional VRT XML string, which can be written out to a .vrt file and read back in with the xgdal backend! With inspiration from [virtualizarr](https://virtualizarr.readthedocs.io/en/stable/index.html) and [xstac](https://github.com/stac-utils/xstac).
 
-See example-mdim.ipynb for creating combined_mdim.vrt
+See [example-mdim.ipynb](./example-mdim.ipynb) for creating [combined_mdim.vrt](./combined_mdim.vrt)
 
 ## Motivation
 
